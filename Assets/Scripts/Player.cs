@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
     [SerializeField] float projectileFiringPeriod = 0.1f;
 
 
-    Coroutine SwingCoroutine;
+    Coroutine ShootCoroutine;
 
     float xMin;
     float xMax;
@@ -74,11 +74,11 @@ public class Player : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            SwingCoroutine = StartCoroutine(FireContinuously());
+            ShootCoroutine = StartCoroutine(FireContinuously());
         }
         if (Input.GetButtonUp("Fire1"))
             {
-            StopCoroutine(SwingCoroutine);
+            StopCoroutine(ShootCoroutine);
         }
     }
 
