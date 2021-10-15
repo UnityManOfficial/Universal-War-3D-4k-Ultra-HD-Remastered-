@@ -1496,7 +1496,8 @@ GameObject:
   - component: {fileID: 5507907651857409972}
   - component: {fileID: 5507907651857409977}
   - component: {fileID: 5507907651857409976}
-  m_Layer: 0
+  - component: {fileID: -7749185621356208534}
+  m_Layer: 6
   m_Name: Enemy Test
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1569,10 +1570,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.008305997, y: 13272.406}
+  m_Offset: {x: -0.000000059604645, y: 0.8647129}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1583,7 +1584,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6561828, y: 121852.08}
+  m_Size: {x: 1.6967465, y: 1.7465147}
   m_EdgeRadius: 0
 --- !u!114 &5507907651857409976
 MonoBehaviour:
@@ -1597,17 +1598,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee67ceb89c632e64c8e1849e3ea82f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
-  minTimeBetweenShots: 0.2
+  health: 1
+  minTimeBetweenShots: 2
   maxTimeBetweenShots: 3
-  projectile: {fileID: 3060896483311338194, guid: a96d477d6259d324ca053a5bc3366474, type: 3}
-  projectileSpeed: 1
-  deathVFX: {fileID: 0}
+  projectile: {fileID: 3060896483311338194, guid: 80abfc0aee3bc79419883c826af4289e, type: 3}
+  projectileSpeed: 5
+  deathVFX: {fileID: 6469087009634277552, guid: 32b618a56e99590469bac7e23bfc6113, type: 3}
   durationOfExplosion: 1
-  deathSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
   deathSoundVolume: 0.75
-  shootSound: {fileID: 0}
+  shootSound: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}
   shootSoundVolume: 0.25
+--- !u!114 &-7749185621356208534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661626945906264868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 166cd0724a73bad458167bf4d47d8cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 6565176813956839181, guid: 92861c75dd7d39d47a14059ee46f6711, type: 3}
 --- !u!1 &4837392647942999924
 GameObject:
   m_ObjectHideFlags: 0
