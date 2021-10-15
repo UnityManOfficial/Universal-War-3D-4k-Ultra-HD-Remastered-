@@ -290,7 +290,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1134923417}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8496569, y: 7.5454803, z: -1.2144123}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -488,7 +488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 156894278353521698, guid: b5b4064ad3379484ca7d2835be260391, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.652257
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 156894278353521698, guid: b5b4064ad3379484ca7d2835be260391, type: 3}
       propertyPath: m_LocalRotation.w
@@ -535,6 +535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3217463321896891459, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}
+      propertyPath: deathVFX
+      value: 
+      objectReference: {fileID: 6469087009634277552, guid: 32b618a56e99590469bac7e23bfc6113, type: 3}
     - target: {fileID: 3217463321896891468, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}
       propertyPath: m_RootOrder
       value: 1

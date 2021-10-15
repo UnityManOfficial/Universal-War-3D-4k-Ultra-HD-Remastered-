@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     [SerializeField] [Range(0, 1)] float deathSoundVolume = 0.75f;
     [SerializeField] AudioClip shootSound;
     [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.25f;
+    [SerializeField] GameObject deathVFX;
 
     [Header("Projectile")]
     [SerializeField] GameObject laserPrefab;
@@ -60,6 +61,7 @@ public class Player : MonoBehaviour
 
     private void Die()
     {
+        GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
         FindObjectOfType<Level>().LoadGameOver();
         Destroy(gameObject);
         AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
