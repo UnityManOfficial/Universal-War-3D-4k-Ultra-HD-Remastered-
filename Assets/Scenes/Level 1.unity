@@ -5340,6 +5340,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayInSeconds: 2
+  TimeLevel: 0
+  TimeMinutes: 1
+  EnemiesLevel: 0
+  EnemiesToTakeDown: 1
 --- !u!4 &1736810024
 Transform:
   m_ObjectHideFlags: 0
@@ -10391,6 +10395,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3217463321896891458, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3217463321896891458, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 3217463321896891459, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}

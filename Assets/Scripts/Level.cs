@@ -5,8 +5,32 @@ using UnityEngine.SceneManagement;
 
 public class Level : MonoBehaviour
 {
-
+    [Header("End Game")]
     [SerializeField] float delayInSeconds = 2f;
+
+    [Header("Time")]
+    [SerializeField] bool TimeLevel;
+    [SerializeField] float TimeMinutes = 1f;
+
+    [Header("Enemies")]
+    [SerializeField] bool EnemiesLevel;
+    [SerializeField] float EnemiesToTakeDown = 1f;
+
+    void Update()
+    {
+        EnemiesTaker();
+        TimeHurry();
+    }
+
+    private void EnemiesTaker()
+    {
+
+    }
+
+    private void TimeHurry()
+    {
+
+    }
 
     public void LoadStartMenu()
     {
