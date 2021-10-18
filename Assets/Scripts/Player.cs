@@ -29,6 +29,7 @@ public class Player : MonoBehaviour
     float xMax;
     float yMin;
     float yMax;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -62,9 +63,9 @@ public class Player : MonoBehaviour
     private void Die()
     {
         GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
-        FindObjectOfType<Level>().LoadGameOver();
-        Destroy(gameObject);
         AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
+        Destroy(gameObject);
+        FindObjectOfType<Level>().LoadGameOver();
     }
 
     public float GetHealth()
