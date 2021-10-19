@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Start Screen.unity
+    guid: d16944512e397114fad374f6913c6934
+  - enabled: 1
+    path: Assets/Scenes/Freeplay Level Select Screen.unity
+    guid: 90b4287286be5bb4f80ded454c225e06
+  - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level Win Screen (Story).unity
+    guid: 1c67451b51c3e7740bdd7ae3e0c678f3
+  - enabled: 1
+    path: Assets/Scenes/Level Win Screen (Freeplay).unity
+    guid: 1f56b46302897f34e844df46b4e5aa4b
+  - enabled: 1
+    path: Assets/Scenes/Game Over Screen (Freeplay).unity
+    guid: 59811c0616b94d64f8f2b19e7827120d
+  - enabled: 1
+    path: Assets/Scenes/Game Over Screen (Story).unity
+    guid: d81fda85d566d0c4388d44fb7eb8222b
   m_configObjects: {}

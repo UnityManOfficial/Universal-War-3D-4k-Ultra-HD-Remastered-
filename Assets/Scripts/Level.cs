@@ -18,20 +18,8 @@ public class Level : MonoBehaviour
 
     void Update()
     {
-        EnemiesTaker();
-        TimeHurry();
-    }
-
-    private void EnemiesTaker()
-    {
 
     }
-
-    private void TimeHurry()
-    {
-
-    }
-
     public void LoadStartMenu()
     {
         SceneManager.LoadScene(0);
@@ -39,7 +27,7 @@ public class Level : MonoBehaviour
 
     public void LoadGame()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Level 1");
         FindObjectOfType<GameSession>().ResetGame();
     }
 
@@ -49,15 +37,26 @@ public class Level : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
-    public void LoadGameOver()
+    public void LoadGameOverStory()
     {
-        StartCoroutine(WaitAndLoad());
+        StartCoroutine(WaitAndLoadRealGame());
     }
 
-    IEnumerator WaitAndLoad()
+    public void LoadGameOverFreePlay()
+    {
+        StartCoroutine(WaitAndLoadFreePlay());
+    }
+
+    IEnumerator WaitAndLoadRealGame()
     {
         yield return new WaitForSeconds(delayInSeconds);
-        SceneManager.LoadScene("Game Over");
+        SceneManager.LoadScene("Game Over Screen (Story)");
+    }
+
+    IEnumerator WaitAndLoadFreePlay()
+    {
+        yield return new WaitForSeconds(delayInSeconds);
+        SceneManager.LoadScene("Game Over Screen (Freeplay)");
     }
 
     public void QuitGame()

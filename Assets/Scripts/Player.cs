@@ -65,7 +65,15 @@ public class Player : MonoBehaviour
         GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
         AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
         Destroy(gameObject);
-        FindObjectOfType<Level>().LoadGameOver();
+
+        //if (RealGame)
+        {
+            //FindObjectOfType<Level>().LoadGameOverStory();
+        }
+        //else
+        {
+            //FindObjectOfType<Level>().LoadGameOverFreePlay();
+        }
     }
 
     public float GetHealth()
