@@ -20,6 +20,12 @@ public class Level : MonoBehaviour
     {
 
     }
+
+    public void TimeHurry()
+    {
+
+    }
+
     public void LoadStartMenu()
     {
         SceneManager.LoadScene(0);

@@ -121,8 +121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
-  minTimeBetweenShots: 1
-  maxTimeBetweenShots: 2
+  minTimeBetweenShots: 100
+  maxTimeBetweenShots: 100
   projectile: {fileID: 3060896483311338194, guid: a96d477d6259d324ca053a5bc3366474, type: 3}
   projectileSpeed: 0
   deathVFX: {fileID: 6469087009634277552, guid: 32b618a56e99590469bac7e23bfc6113, type: 3}
@@ -202,7 +202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 5566831125362798958, guid: 5be64166b68ccf34c9a846131c487166, type: 3}
+  - {fileID: 0}
 --- !u!114 &1793642148
 MonoBehaviour:
   m_ObjectHideFlags: 0
