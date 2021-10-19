@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 57090826238244433}
   - component: {fileID: 57090826238244434}
   - component: {fileID: 6445450458566462039}
+  - component: {fileID: -4374182562312024034}
+  - component: {fileID: 1793642148}
   m_Layer: 6
   m_Name: Kamikaze Enemy
   m_TagString: Untagged
@@ -122,7 +124,7 @@ MonoBehaviour:
   minTimeBetweenShots: 1
   maxTimeBetweenShots: 2
   projectile: {fileID: 3060896483311338194, guid: a96d477d6259d324ca053a5bc3366474, type: 3}
-  projectileSpeed: 1
+  projectileSpeed: 0
   deathVFX: {fileID: 6469087009634277552, guid: 32b618a56e99590469bac7e23bfc6113, type: 3}
   durationOfExplosion: 1
   deathSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
@@ -139,7 +141,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -154,20 +156,63 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.8125, y: 1}
-      - {x: 0.78125, y: 1}
-      - {x: 0.40625, y: 0.78125}
-      - {x: 0.25, y: 1}
-      - {x: -0.15625, y: 1}
-      - {x: -0.4375, y: 0.78125}
-      - {x: -0.78125, y: 0.9375}
-      - {x: -1, y: 0.6875}
-      - {x: -1, y: 0.15625}
-      - {x: -0.96875, y: 0.09375}
-      - {x: -1, y: 0.03125}
-      - {x: -1, y: -0.65625}
-      - {x: -0.125, y: -1}
-      - {x: 0.125, y: -1}
-      - {x: 0.28125, y: -0.84375}
-      - {x: 1, y: -0.5625}
-      - {x: 1, y: 0.59375}
+    - - {x: 0.79696465, y: 0.8001137}
+      - {x: 0.6478228, y: 0.7788621}
+      - {x: 0.64950836, y: 0.7082863}
+      - {x: 0.6509131, y: 0.54129183}
+      - {x: 0.36292154, y: 0.52949387}
+      - {x: 0.008427128, y: 1.0188203}
+      - {x: -0.3528089, y: 0.5365868}
+      - {x: -0.6154555, y: 0.5508575}
+      - {x: -0.66911125, y: 0.7994387}
+      - {x: -0.8188905, y: 0.782233}
+      - {x: -0.8202221, y: 0.529358}
+      - {x: -0.9952949, y: 0.5040027}
+      - {x: -0.97647464, y: 0.23153098}
+      - {x: -0.3429769, y: 0.23019677}
+      - {x: -0.25992364, y: 0.13982232}
+      - {x: -0.27702332, y: -0.06464946}
+      - {x: -0.3428521, y: -0.20049205}
+      - {x: -0.97176963, y: -0.2275284}
+      - {x: -1, y: -0.5433284}
+      - {x: -0.27556193, y: -0.5294939}
+      - {x: -0.13191819, y: -0.86607844}
+      - {x: -0.002036661, y: -0.95765436}
+      - {x: 0.12176507, y: -0.86599624}
+      - {x: 0.28125, y: -0.5426262}
+      - {x: 0.9952949, y: -0.5342697}
+      - {x: 1.0009751, y: -0.22578111}
+      - {x: 0.3240813, y: -0.18025827}
+      - {x: 0.2781001, y: -0.13159049}
+      - {x: 0.29012558, y: 0.12811285}
+      - {x: 0.35112172, y: 0.21287256}
+      - {x: 1.0329188, y: 0.23648205}
+      - {x: 0.9999742, y: 0.5265173}
+      - {x: 0.85414296, y: 0.5231741}
+--- !u!114 &-4374182562312024034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57090826238244435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 166cd0724a73bad458167bf4d47d8cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 5566831125362798958, guid: 5be64166b68ccf34c9a846131c487166, type: 3}
+--- !u!114 &1793642148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57090826238244435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cd92dfbfd9900145a25aa2a9ac8add9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 3

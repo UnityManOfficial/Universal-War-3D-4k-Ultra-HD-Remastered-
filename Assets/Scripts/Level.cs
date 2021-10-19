@@ -37,6 +37,16 @@ public class Level : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
+    public void LoadVictoryStory()
+    {
+        SceneManager.LoadScene("Level Win Screen(Story)");
+    }
+
+    public void LoadVictoryFreePlay()
+    {
+        SceneManager.LoadScene("Level Win Screen(FreePlay)");
+    }
+
     public void LoadGameOverStory()
     {
         StartCoroutine(WaitAndLoadRealGame());

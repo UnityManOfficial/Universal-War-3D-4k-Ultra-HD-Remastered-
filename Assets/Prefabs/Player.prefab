@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 3217463321896891470}
   m_Layer: 7
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -150,14 +150,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   padding: 1
-  health: 1
+  health: 3
   deathSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
   deathSoundVolume: 0.75
   shootSound: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}
   shootSoundVolume: 0.25
+  deathVFX: {fileID: 6469087009634277552, guid: 32b618a56e99590469bac7e23bfc6113, type: 3}
   laserPrefab: {fileID: 3060896483311338194, guid: a96d477d6259d324ca053a5bc3366474, type: 3}
-  projectileSpeed: 10
-  projectileFiringPeriod: 0.1
+  projectileSpeed: 15
+  projectileFiringPeriod: 0.3
 --- !u!50 &3217463321896891469
 Rigidbody2D:
   serializedVersion: 4
