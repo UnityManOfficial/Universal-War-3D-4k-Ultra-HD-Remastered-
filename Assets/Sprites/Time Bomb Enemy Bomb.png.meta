@@ -1,7 +1,85 @@
 fileFormatVersion: 2
 guid: 0ebeb0bf7510c7c44a3a71db0559e887
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8571934363549558251
+    second: Time Bomb Enemy Bomb_0
+  - first:
+      213: -3187641192807278179
+    second: Time Bomb Enemy Bomb_1
+  - first:
+      213: 8401598867210223131
+    second: Time Bomb Enemy Bomb_2
+  - first:
+      213: 360421512225863128
+    second: Time Bomb Enemy Bomb_3
+  - first:
+      213: 7823915829511963729
+    second: Time Bomb Enemy Bomb_4
+  - first:
+      213: -6689231706096180977
+    second: Time Bomb Enemy Bomb_5
+  - first:
+      213: 5275858633231934794
+    second: Time Bomb Enemy Bomb_6
+  - first:
+      213: 6840946574008316512
+    second: Time Bomb Enemy Bomb_7
+  - first:
+      213: -2762872046502141735
+    second: Time Bomb Enemy Bomb_8
+  - first:
+      213: -1700907326027615248
+    second: Time Bomb Enemy Bomb_9
+  - first:
+      213: -8197779694149211210
+    second: Time Bomb Enemy Bomb_10
+  - first:
+      213: -4812118453987266780
+    second: Time Bomb Enemy Bomb_11
+  - first:
+      213: -2831557272712103335
+    second: Time Bomb Enemy Bomb_12
+  - first:
+      213: -6685322292840517483
+    second: Time Bomb Enemy Bomb_13
+  - first:
+      213: -7709662323899697308
+    second: Time Bomb Enemy Bomb_14
+  - first:
+      213: -483164522123860790
+    second: Time Bomb Enemy Bomb_15
+  - first:
+      213: -501643359717473714
+    second: Time Bomb Enemy Bomb_16
+  - first:
+      213: -7319067158588193615
+    second: Time Bomb Enemy Bomb_17
+  - first:
+      213: -5773910545423794391
+    second: Time Bomb Enemy Bomb_18
+  - first:
+      213: 6442835494754804327
+    second: Time Bomb Enemy Bomb_19
+  - first:
+      213: 5866808922647060524
+    second: Time Bomb Enemy Bomb_20
+  - first:
+      213: 5549022793218386547
+    second: Time Bomb Enemy Bomb_21
+  - first:
+      213: 9004473582883297441
+    second: Time Bomb Enemy Bomb_22
+  - first:
+      213: -7651062924297778944
+    second: Time Bomb Enemy Bomb_23
+  - first:
+      213: -7219476117113901240
+    second: Time Bomb Enemy Bomb_24
+  - first:
+      213: 3572020622947210808
+    second: Time Bomb Enemy Bomb_25
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +110,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +119,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 60
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +153,567 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 430
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a1aa6cc1f5a0980800000000000000
+      internalID: -8571934363549558251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 430
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99d157593933c3d0800000000000000
+      internalID: -3187641192807278179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_2
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 430
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1eb369f7a9789470800000000000000
+      internalID: 8401598867210223131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 430
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5b1ada479700500800000000000000
+      internalID: 360421512225863128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_4
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 430
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154cd9a7ef1249c60800000000000000
+      internalID: 7823915829511963729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 346
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f016bd154331b23a0800000000000000
+      internalID: -6689231706096180977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_6
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 346
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45a7f6697d973940800000000000000
+      internalID: 5275858633231934794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 346
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062f0370aacefee50800000000000000
+      internalID: 6840946574008316512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 346
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d02264138e48a9d0800000000000000
+      internalID: -2762872046502141735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_9
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 346
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3b34c7cc92568e0800000000000000
+      internalID: -1700907326027615248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 262
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb63574dc2ab3e80800000000000000
+      internalID: -8197779694149211210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_11
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 262
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42facf403cbe73db0800000000000000
+      internalID: -4812118453987266780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 262
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a32d6a9a944b8d0800000000000000
+      internalID: -2831557272712103335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_13
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 262
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590bd368bc6f833a0800000000000000
+      internalID: -6685322292840517483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_14
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 262
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467feb5c6f6c10590800000000000000
+      internalID: -7709662323899697308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 178
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac46cb25d647b49f0800000000000000
+      internalID: -483164522123860790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 178
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e424b1ca50ec909f0800000000000000
+      internalID: -501643359717473714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_17
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 178
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b48f1582337d6a90800000000000000
+      internalID: -7319067158588193615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 178
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ff12f43f2fedfa0800000000000000
+      internalID: -5773910545423794391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_19
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 178
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76263233fbc896950800000000000000
+      internalID: 6442835494754804327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 94
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c206877a1a71b6150800000000000000
+      internalID: 5866808922647060524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_21
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 94
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ae35894d6120d40800000000000000
+      internalID: 5549022793218386547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_22
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 94
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8d521140156fc70800000000000000
+      internalID: 9004473582883297441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_23
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 94
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009c113bec6f1d590800000000000000
+      internalID: -7651062924297778944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_24
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 94
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f620fc8b44fcb90800000000000000
+      internalID: -7219476117113901240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Bomb Enemy Bomb_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8365329c4dd529130800000000000000
+      internalID: 3572020622947210808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
