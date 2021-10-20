@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3768627556639964677}
   - component: {fileID: 3768627556639964678}
   - component: {fileID: 3768627556639964679}
+  - component: {fileID: 783355553}
+  - component: {fileID: 783355552}
   m_Layer: 6
   m_Name: Enemy Light
   m_TagString: Untagged
@@ -101,11 +103,11 @@ MonoBehaviour:
   maxTimeBetweenShots: 3
   projectile: {fileID: 4626410647776050796, guid: c986c6b1a203ad24daba197d883befc5, type: 3}
   projectileSpeed: 10
-  deathVFX: {fileID: 0}
+  deathVFX: {fileID: 6469087009634277552, guid: 32b618a56e99590469bac7e23bfc6113, type: 3}
   durationOfExplosion: 1
-  deathSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}
   deathSoundVolume: 0.75
-  shootSound: {fileID: 0}
+  shootSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
   shootSoundVolume: 0.25
 --- !u!114 &3768627556639964679
 MonoBehaviour:
@@ -121,3 +123,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypoints:
   - {fileID: 5566831125362798958, guid: 5be64166b68ccf34c9a846131c487166, type: 3}
+--- !u!50 &783355553
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3768627556639964672}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &783355552
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3768627556639964672}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.05711472}
+  serializedVersion: 2
+  m_Radius: 0.44288528
