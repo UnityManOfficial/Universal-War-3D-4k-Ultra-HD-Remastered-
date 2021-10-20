@@ -5,7 +5,6 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 
-
     //Config Params
     [Header("Player")]
     [SerializeField] float moveSpeed = 10f;
@@ -65,12 +64,13 @@ public class Player : MonoBehaviour
         GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
         AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
         Destroy(gameObject);
+        FindObjectOfType<Level>().LoadGameOverStory();
 
-        //if (RealGame)
+        //if (FindObjectOfType<Level>.)
         {
             //FindObjectOfType<Level>().LoadGameOverStory();
         }
-        //else
+        //else if (FindObjectOfType<Level>(!)
         {
             //FindObjectOfType<Level>().LoadGameOverFreePlay();
         }
