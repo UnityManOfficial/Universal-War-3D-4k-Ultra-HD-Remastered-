@@ -371,6 +371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3217463321896891459, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}
+      propertyPath: deathVFX
+      value: 
+      objectReference: {fileID: 7956281839378621678, guid: 66c55783b70b0e84ebb164bc8e057309, type: 3}
     - target: {fileID: 3217463321896891468, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}
       propertyPath: m_RootOrder
       value: 8
