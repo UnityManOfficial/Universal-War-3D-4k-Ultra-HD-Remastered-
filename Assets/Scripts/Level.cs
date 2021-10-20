@@ -10,7 +10,7 @@ public class Level : MonoBehaviour
 
     [Header("Time")]
     [SerializeField] bool TimeLevel;
-    [SerializeField] float TimeMinutes = 1f;
+    [SerializeField] float TimeSeconds = 1f;
 
     [Header("Enemies")]
     [SerializeField] bool EnemiesLevel;
@@ -18,12 +18,19 @@ public class Level : MonoBehaviour
 
     void Update()
     {
-
+        TimeCounter();
     }
 
-    public void TimeHurry()
+    private void TimeCounter()
     {
-
+        if (TimeLevel)
+        {
+            TimeSeconds -= Time.deltaTime;
+            if (TimeSeconds <= 0)
+            {
+                LoadNextGame();
+            }
+        }
     }
 
     public void LoadStartMenu()

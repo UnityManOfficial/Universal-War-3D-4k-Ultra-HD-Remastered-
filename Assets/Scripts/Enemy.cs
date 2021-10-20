@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     [Header ("Enemy Stats")]
     [SerializeField] float health = 100;
+    int EnemiesCountDown = 1;
 
     [Header ("Shooting")]
     float shotCounter;
@@ -68,8 +69,14 @@ public class Enemy : MonoBehaviour
         damageDealer.Hit();
         if (health <= 0)
         {
+            CountDown();
             Die();
         }
+    }
+
+    public int CountDown()
+    {
+        return EnemiesCountDown;
     }
 
     private void Die()
