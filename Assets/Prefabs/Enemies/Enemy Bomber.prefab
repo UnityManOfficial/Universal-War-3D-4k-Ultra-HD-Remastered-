@@ -88,7 +88,7 @@ MonoBehaviour:
   minTimeBetweenShots: 0.2
   maxTimeBetweenShots: 3
   projectile: {fileID: 7956502443324603215, guid: 628bae816dd405847ba89ea678ad3939, type: 3}
-  projectileSpeed: 0
+  projectileSpeed: 1.5
   deathVFX: {fileID: 1035675687880977, guid: e786f05e0ea265c4fa3c8dd45eb3222d, type: 3}
   durationOfExplosion: 0.7
   deathSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}

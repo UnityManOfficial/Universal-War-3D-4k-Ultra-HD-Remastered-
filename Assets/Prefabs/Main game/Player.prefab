@@ -157,7 +157,7 @@ MonoBehaviour:
   shootSoundVolume: 0.25
   deathVFX: {fileID: 7956281839378621678, guid: 66c55783b70b0e84ebb164bc8e057309, type: 3}
   laserPrefab: {fileID: 3060896483311338194, guid: a96d477d6259d324ca053a5bc3366474, type: 3}
-  projectileSpeed: 15
+  projectileSpeed: 50
   projectileFiringPeriod: 0.3
 --- !u!50 &3217463321896891469
 Rigidbody2D:
