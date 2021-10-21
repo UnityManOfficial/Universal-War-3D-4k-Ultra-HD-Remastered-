@@ -12,13 +12,34 @@ public class Level : MonoBehaviour
     [SerializeField] bool TimeLevel;
     [SerializeField] float TimeSeconds = 1f;
 
-    //[Header("Enemies")]
-    //[SerializeField] bool EnemiesLevel;
-    //[SerializeField] float EnemiesToTakeDown = 1f;
+    [Header("Enemies")]
+    [SerializeField] bool EnemiesLevel;
+    [SerializeField] float EnemiesToTakeDown = 1f;
 
     void Update()
     {
+        EnemiesCountDown();
         TimeCounter();
+    }
+
+    private void EnemiesCountDown()
+    {
+        GameObject theEnemies = GameObject.Find("Enemy Bomber");
+        Enemy enemiescount = FindObjectOfType<Enemy>();
+        if (!enemiescount) { return; }
+        EnemyTaker(enemiescount);
+    }
+
+    private void EnemyTaker(Enemy enemiesCount)
+    {
+        if (EnemiesLevel)
+        {
+            EnemiesToTakeDown -= enemiesCount.CountDown();
+            if (EnemiesToTakeDown <= 0)
+            {
+                LoadNextGame();
+            }
+        }
     }
 
     private void TimeCounter()
