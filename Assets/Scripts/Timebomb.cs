@@ -24,4 +24,16 @@ public class Timebomb : MonoBehaviour
         GameObject Explode = Instantiate(ExplosionVFX, transform.position, transform.rotation);
         AudioSource.PlayClipAtPoint(ExplosionSFX, Camera.main.transform.position, ExplosionVolume);
     }
+
+     private void OnTriggerEnter2D(Collider2D other)
+    {
+        DeployedAS();
+    }
+
+    private void DeployedAS()
+    {
+        Destroy(gameObject);
+        GameObject Explode = Instantiate(ExplosionVFX, transform.position, transform.rotation);
+        AudioSource.PlayClipAtPoint(ExplosionSFX, Camera.main.transform.position, ExplosionVolume);
+    }
 }
