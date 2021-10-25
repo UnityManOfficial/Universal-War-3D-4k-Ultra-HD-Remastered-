@@ -101,9 +101,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 1
   minTimeBetweenShots: 0.2
-  maxTimeBetweenShots: 3
+  maxTimeBetweenShots: 1
   projectile: {fileID: 4626410647776050796, guid: c986c6b1a203ad24daba197d883befc5, type: 3}
-  projectileSpeed: 10
+  projectileSpeed: 15
   deathVFX: {fileID: 1035675687880977, guid: e786f05e0ea265c4fa3c8dd45eb3222d, type: 3}
   durationOfExplosion: 0.7
   deathSound: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}

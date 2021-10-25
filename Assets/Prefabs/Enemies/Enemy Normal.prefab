@@ -219,11 +219,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee67ceb89c632e64c8e1849e3ea82f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
-  minTimeBetweenShots: 0.2
+  health: 2
+  minTimeBetweenShots: 0.5
   maxTimeBetweenShots: 3
   projectile: {fileID: 4626410647776050796, guid: c986c6b1a203ad24daba197d883befc5, type: 3}
-  projectileSpeed: 5
+  projectileSpeed: 10
   deathVFX: {fileID: 1035675687880977, guid: e786f05e0ea265c4fa3c8dd45eb3222d, type: 3}
   durationOfExplosion: 0.7
   deathSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
@@ -242,4 +242,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd92dfbfd9900145a25aa2a9ac8add9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
+  damage: 1

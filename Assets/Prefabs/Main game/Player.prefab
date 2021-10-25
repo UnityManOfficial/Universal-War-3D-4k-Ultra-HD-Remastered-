@@ -150,15 +150,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   padding: 1
-  health: 3
+  health: 5
   deathSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
   deathSoundVolume: 0.75
   shootSound: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}
   shootSoundVolume: 0.25
+  SpecialShootSound: {fileID: 0}
+  SpecialShootSoundVolume: 0.25
   deathVFX: {fileID: 7956281839378621678, guid: 66c55783b70b0e84ebb164bc8e057309, type: 3}
   laserPrefab: {fileID: 3060896483311338194, guid: a96d477d6259d324ca053a5bc3366474, type: 3}
+  SpecialPrefab: {fileID: 0}
   projectileSpeed: 50
   projectileFiringPeriod: 0.3
+  SProjectileSpeed: 10
+  SProjectileCoolDown: 5
 --- !u!50 &3217463321896891469
 Rigidbody2D:
   serializedVersion: 4
