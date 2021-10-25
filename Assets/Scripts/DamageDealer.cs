@@ -5,9 +5,9 @@ using UnityEngine;
 public class DamageDealer : MonoBehaviour
 {
 
-    [SerializeField] int damage = 1;
+    [SerializeField] float damage = 1;
 
-    public int GetDamage()
+    public float GetDamage()
     {
         return damage;
     }
