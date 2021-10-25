@@ -12,34 +12,9 @@ public class Level : MonoBehaviour
     [SerializeField] bool TimeLevel;
     [SerializeField] float TimeSeconds = 1f;
 
-    [Header("Enemies")]
-    [SerializeField] bool EnemiesLevel;
-    [SerializeField] float EnemiesToTakeDown = 1f;
-
     void Update()
     {
-        EnemiesCountDown();
         TimeCounter();
-    }
-
-    private void EnemiesCountDown()
-    {
-        GameObject theEnemies = GameObject.Find("Enemy Bomber");
-        Enemy enemiescount = FindObjectOfType<Enemy>();
-        if (!enemiescount) { return; }
-        EnemyTaker(enemiescount);
-    }
-
-    private void EnemyTaker(Enemy enemiesCount)
-    {
-        if (EnemiesLevel)
-        {
-            EnemiesToTakeDown -= enemiesCount.CountDown();
-            if (EnemiesToTakeDown <= 0)
-            {
-                LoadNextGame();
-            }
-        }
     }
 
     private void TimeCounter()
@@ -67,8 +42,7 @@ public class Level : MonoBehaviour
 
     public void LoadNextGame()
     {
-        var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex + 1);
+        StartCoroutine(LoadNextGameTime());
     }
 
     public void LoadVictoryStory()
@@ -101,6 +75,13 @@ public class Level : MonoBehaviour
     {
         yield return new WaitForSeconds(delayInSeconds);
         SceneManager.LoadScene("Game Over Screen (Freeplay)");
+    }
+
+    IEnumerator LoadNextGameTime()
+    {
+        yield return new WaitForSeconds(delayInSeconds);
+        var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex + 1);
     }
 
     public void QuitGame()

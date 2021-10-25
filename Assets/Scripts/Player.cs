@@ -14,18 +14,13 @@ public class Player : MonoBehaviour
     [SerializeField] [Range(0, 1)] float deathSoundVolume = 0.75f;
     [SerializeField] AudioClip shootSound;
     [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.25f;
-    [SerializeField] AudioClip SpecialShootSound;
-    [SerializeField] [Range(0, 1)] float SpecialShootSoundVolume = 0.25f;
     [SerializeField] GameObject deathVFX;
 
 
     [Header("Projectile")]
     [SerializeField] GameObject laserPrefab;
-    [SerializeField] [Tooltip ("Dietz Nuts")] GameObject SpecialPrefab;
     [SerializeField] float projectileSpeed = 10f;
     [SerializeField] float projectileFiringPeriod = 0.1f;
-    [SerializeField] float SProjectileSpeed = 10f;
-    [SerializeField] float SProjectileCoolDown = 5f;
 
 
     Coroutine ShootCoroutine;
@@ -71,15 +66,6 @@ public class Player : MonoBehaviour
         AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
         Destroy(gameObject);
         FindObjectOfType<Level>().LoadGameOverStory();
-
-        //if (FindObjectOfType<Level>.)
-        {
-            //FindObjectOfType<Level>().LoadGameOverStory();
-        }
-        //else if (FindObjectOfType<Level>(!)
-        {
-            //FindObjectOfType<Level>().LoadGameOverFreePlay();
-        }
     }
 
     public float GetHealth()
