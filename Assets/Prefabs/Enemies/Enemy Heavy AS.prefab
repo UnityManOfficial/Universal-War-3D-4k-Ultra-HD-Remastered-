@@ -114,8 +114,6 @@ GameObject:
   - component: {fileID: 392506773819090855}
   - component: {fileID: 5652631723554015836}
   - component: {fileID: 7867479319229123483}
-  - component: {fileID: 4769385766431277611}
-  - component: {fileID: 6273878409429424912}
   - component: {fileID: 741270228621547949}
   m_Layer: 6
   m_Name: Enemy Heavy AS
@@ -208,8 +206,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100000000
-  minTimeBetweenShots: 5
-  maxTimeBetweenShots: 20
+  minTimeBetweenShots: 1
+  maxTimeBetweenShots: 2
   projectile: {fileID: 1719125600606895658, guid: a04e6487a6f9ea34db92067941f2f0a9, type: 3}
   projectileSpeed: 2
   deathVFX: {fileID: 1035675687880977, guid: e786f05e0ea265c4fa3c8dd45eb3222d, type: 3}
@@ -218,33 +216,6 @@ MonoBehaviour:
   deathSoundVolume: 0
   shootSound: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}
   shootSoundVolume: 0
---- !u!114 &4769385766431277611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8927527402032172185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 166cd0724a73bad458167bf4d47d8cb0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waypoints:
-  - {fileID: 6565176813956839181, guid: 92861c75dd7d39d47a14059ee46f6711, type: 3}
---- !u!114 &6273878409429424912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8927527402032172185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2cd92dfbfd9900145a25aa2a9ac8add9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 5
 --- !u!95 &741270228621547949
 Animator:
   serializedVersion: 3

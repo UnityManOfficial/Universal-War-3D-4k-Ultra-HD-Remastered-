@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 971943060149406936}
   - component: {fileID: 3429767712944721001}
   - component: {fileID: 6159858820452977358}
+  - component: {fileID: 7992728958804987011}
   m_Layer: 8
   m_Name: Asteroid 2
   m_TagString: Untagged
@@ -186,3 +187,19 @@ PolygonCollider2D:
       - {x: 0.22528665, y: 0.33208224}
       - {x: 0.23974043, y: 0.33709112}
       - {x: 0.24284492, y: 0.43936664}
+--- !u!114 &7992728958804987011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719125600606895658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab25f6ae8a20ba4ab22d2b75825a1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BombsTimer: 9999
+  ExplosionSFX: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}
+  ExplosionVFX: {fileID: 513722786459439974, guid: d9008e100179a2640a2ed3723f8a3490, type: 3}
+  ExplosionVolume: 0
