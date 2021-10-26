@@ -205,7 +205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 12396630}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1263089172}
+        m_TargetAssemblyTypeName: Level, Assembly-CSharp
+        m_MethodName: LoadFreeplayLV7
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &12396630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -596,7 +608,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 65312662}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1263089172}
+        m_TargetAssemblyTypeName: Level, Assembly-CSharp
+        m_MethodName: LoadFreeplayLV6
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &65312662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -851,7 +875,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 344955896}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1263089172}
+        m_TargetAssemblyTypeName: Level, Assembly-CSharp
+        m_MethodName: LoadFreeplayLV3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &344955896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1240,7 +1276,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 494939583}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1263089172}
+        m_TargetAssemblyTypeName: Level, Assembly-CSharp
+        m_MethodName: LoadFreeplayLV5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &494939583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1796,7 +1844,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 703656820}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1263089172}
+        m_TargetAssemblyTypeName: Level, Assembly-CSharp
+        m_MethodName: LoadFreeplayLV9
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &703656820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1917,7 +1977,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 765420802}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1263089172}
+        m_TargetAssemblyTypeName: Level, Assembly-CSharp
+        m_MethodName: LoadFreeplayLV8
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &765420802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2038,7 +2110,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 939742022}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1263089172}
+        m_TargetAssemblyTypeName: Level, Assembly-CSharp
+        m_MethodName: LoadFreeplayLV4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &939742022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2562,7 +2646,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1181035957}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1263089172}
+        m_TargetAssemblyTypeName: Level, Assembly-CSharp
+        m_MethodName: LoadFreeplayLV2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1181035957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2612,6 +2708,7 @@ GameObject:
   - component: {fileID: 1263089171}
   - component: {fileID: 1263089170}
   - component: {fileID: 1263089169}
+  - component: {fileID: 1263089172}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -2667,6 +2764,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1263089172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263089168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac1b2321d02ed674da6210e292c1567a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayInSeconds: 2
+  TimeLevel: 0
+  TimeSeconds: 1
 --- !u!1 &1285807594
 GameObject:
   m_ObjectHideFlags: 0
@@ -2883,7 +2995,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1417930659}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1263089172}
+        m_TargetAssemblyTypeName: Level, Assembly-CSharp
+        m_MethodName: LoadFreeplayLV10
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1417930659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3005,9 +3129,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
-        m_MethodName: 
+      - m_Target: {fileID: 1263089172}
+        m_TargetAssemblyTypeName: Level, Assembly-CSharp
+        m_MethodName: LoadGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
