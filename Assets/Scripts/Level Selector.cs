@@ -13,7 +13,6 @@ public class LevelSelector : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-
     public void Selector()
     {
         SceneManager.LoadScene(LevelNumber);

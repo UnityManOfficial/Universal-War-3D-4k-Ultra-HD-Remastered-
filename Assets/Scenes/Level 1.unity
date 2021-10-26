@@ -137,7 +137,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7145217213436007738, guid: a864daae6c2d02e4ba31e912cd6a98e3, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7145217213436007738, guid: a864daae6c2d02e4ba31e912cd6a98e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -178,14 +178,6 @@ PrefabInstance:
     - target: {fileID: 7145217213436007738, guid: a864daae6c2d02e4ba31e912cd6a98e3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7867479319229123483, guid: a864daae6c2d02e4ba31e912cd6a98e3, type: 3}
-      propertyPath: maxTimeBetweenShots
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 7867479319229123483, guid: a864daae6c2d02e4ba31e912cd6a98e3, type: 3}
-      propertyPath: minTimeBetweenShots
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8927527402032172185, guid: a864daae6c2d02e4ba31e912cd6a98e3, type: 3}
       propertyPath: m_Name
@@ -268,7 +260,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 156894278353521698, guid: b5b4064ad3379484ca7d2835be260391, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 156894278353521698, guid: b5b4064ad3379484ca7d2835be260391, type: 3}
       propertyPath: m_LocalPosition.x
@@ -459,7 +451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3217463321896891468, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3217463321896891468, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}
       propertyPath: m_LocalPosition.x
