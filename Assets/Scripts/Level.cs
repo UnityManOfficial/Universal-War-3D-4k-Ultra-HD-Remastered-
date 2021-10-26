@@ -45,6 +45,11 @@ public class Level : MonoBehaviour
         StartCoroutine(LoadNextGameTime());
     }
 
+    public void LoadFreeplay()
+    {
+        SceneManager.LoadScene("Freeplay Level Select Screen");
+    }
+
     public void LoadVictoryStory()
     {
         SceneManager.LoadScene("Level Win Screen(Story)");
