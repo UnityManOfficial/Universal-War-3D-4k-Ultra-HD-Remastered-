@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &241802684 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3217463321896891468, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}
+  m_PrefabInstance: {fileID: 3217463323022596996}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1844708369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -435,6 +440,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8161041869007804327, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: TriggerModule.primitives.Array.data[0]
+      value: 
+      objectReference: {fileID: 241802684}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 037c27a247c225d469928eab15d257da, type: 3}
 --- !u!1001 &3217463323022596996

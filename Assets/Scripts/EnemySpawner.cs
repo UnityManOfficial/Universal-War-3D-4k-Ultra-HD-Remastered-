@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
+    [Header ("List Of Waves")]
+    [SerializeField] [Tooltip("Insert waves here")] List<WaveConfig> waveConfigs;
 
-    [SerializeField] List<WaveConfig> waveConfigs;
-    [SerializeField] int startingWave = 0;
-    [SerializeField] bool looping = false;
+    [Header ("Waves Settings")]
+    [SerializeField] [Tooltip("I forgpt what this does")] int startingWave = 0;
+    [SerializeField] [Tooltip("Should waves loop?")] bool looping = false;
+    [SerializeField] [Tooltip ("How much seconds before invasion")] float TimeBeforeStart = 1f;
 
     // Start is called before the first frame update
     IEnumerator Start()
     {
+        yield return new WaitForSeconds(TimeBeforeStart);
         do
         {
             yield return StartCoroutine(SpawnAllWaves());

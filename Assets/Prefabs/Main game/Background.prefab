@@ -1,5 +1,115 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &873500510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 873500511}
+  - component: {fileID: 873500514}
+  - component: {fileID: 873500513}
+  - component: {fileID: 873500512}
+  - component: {fileID: 873500515}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &873500511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873500510}
+  m_LocalRotation: {x: -0.0000020861623, y: 0.7071056, z: -0.707108, w: 0.0000021532176}
+  m_LocalPosition: {x: 0, y: 22.62, z: 8.8}
+  m_LocalScale: {x: 6.8895636, y: 6.8895636, z: 6.8895636}
+  m_Children: []
+  m_Father: {fileID: 550598677346291555}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -180}
+--- !u!33 &873500514
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873500510}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &873500513
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873500510}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: de736d92cac242a44a57f1efeb381dd6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &873500512
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873500510}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &873500515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873500510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3b1ad75ea09afb4ca5e345109a84cd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundScrollSpeed: 0.0026
 --- !u!1 &550598675541651736
 GameObject:
   m_ObjectHideFlags: 0
@@ -9733,6 +9843,7 @@ Transform:
   - {fileID: 1450879631606424616}
   - {fileID: 550598676720019117}
   - {fileID: 8161041869007804326}
+  - {fileID: 873500511}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9821,6 +9932,58 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 550598677346291555}
     m_Modifications:
+    - target: {fileID: 3810109408179323096, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
+      propertyPath: prewarm
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810109408179323096, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
+      propertyPath: TrailModule.ratio
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810109408179323096, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
+      propertyPath: NoiseModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810109408179323096, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
+      propertyPath: TrailModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810109408179323096, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
+      propertyPath: NoiseModule.strength.scalar
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810109408179323096, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
+      propertyPath: TrailModule.lifetime.scalar
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810109408179323096, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
+      propertyPath: TrailModule.sizeAffectsLifetime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810109408179323096, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
+      propertyPath: TrailModule.widthOverTrail.scalar
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810109408179323096, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810109408179323096, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
+      propertyPath: TriggerModule.primitives.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810109408179323096, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.maxColor.b
+      value: 0.9245283
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810109408179323096, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.maxColor.g
+      value: 0.9245283
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810109408179323096, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.maxColor.r
+      value: 0.9245283
+      objectReference: {fileID: 0}
     - target: {fileID: 3810109408179323097, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -9869,6 +10032,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asteroids Background
       objectReference: {fileID: 0}
+    - target: {fileID: 3810109408179323103, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810109408179323103, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e0432bfea0d28a47821918147d7f172, type: 3}
 --- !u!4 &8161041869007804326 stripped

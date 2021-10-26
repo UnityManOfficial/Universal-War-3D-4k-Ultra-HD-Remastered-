@@ -7,20 +7,31 @@ public class Enemy : MonoBehaviour
     [Header ("Enemy Stats")]
     [SerializeField] float health = 100;
 
-    [Header ("Shooting")]
-    float shotCounter;
+    [Header ("Projectile Settings")]
+
     [SerializeField] float minTimeBetweenShots = 0.2f;
     [SerializeField] float maxTimeBetweenShots = 3f;
-    [SerializeField] GameObject projectile;
     [SerializeField] float projectileSpeed;
+    float shotCounter;
 
-    [Header ("Sound Effects")]
+    [Header ("Prefabs")]
+
+    [SerializeField] GameObject projectile;
     [SerializeField] GameObject deathVFX;
-    [SerializeField] float durationOfExplosion = 1f;
+
+    [Header ("Sounds")]
+
     [SerializeField] AudioClip deathSound;
-    [SerializeField] [Range(0,1)] float deathSoundVolume = 0.75f;
     [SerializeField] AudioClip shootSound;
+
+    [Header("Sound Settings")]
+
+    [SerializeField] [Range(0, 1)] float deathSoundVolume = 0.75f;
     [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.25f;
+
+    [Header ("Visual Effect Settings")]
+    [SerializeField] float durationOfExplosion = 1f;
+
 
     // Start is called before the first frame update
     void Start()

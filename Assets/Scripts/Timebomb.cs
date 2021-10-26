@@ -7,9 +7,9 @@ public class Timebomb : MonoBehaviour
     [Header("Bomb")]
 
     [SerializeField] float BombsTimer = 1f;
+    [SerializeField] [Range(0, 1)] float ExplosionVolume = 0.75f;
     [SerializeField] AudioClip ExplosionSFX;
     [SerializeField] GameObject ExplosionVFX;
-    [SerializeField] [Range(0, 1)] float ExplosionVolume = 0.75f;
 
     // Start is called before the first frame update
     void Start()

@@ -6,22 +6,27 @@ public class Player : MonoBehaviour
 {
 
     //Config Params
-    [Header("Player")]
+    [Header("Player Movement")]
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding = 1f;
     [SerializeField] float health = 100f;
-    [SerializeField] AudioClip deathSound;
-    [SerializeField] [Range(0, 1)] float deathSoundVolume = 0.75f;
-    [SerializeField] AudioClip shootSound;
-    [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.25f;
-    [SerializeField] GameObject deathVFX;
 
-
-    [Header("Projectile")]
-    [SerializeField] GameObject laserPrefab;
+    [Header("Projectile Settings")]
+    
     [SerializeField] float projectileSpeed = 10f;
     [SerializeField] float projectileFiringPeriod = 0.1f;
 
+    [Header ("Prefabs")]
+    [SerializeField] GameObject laserPrefab;
+    [SerializeField] GameObject deathVFX;
+
+    [Header ("Sounds")]
+    [SerializeField] AudioClip shootSound;
+    [SerializeField] AudioClip deathSound;
+
+    [Header ("Sounds Settings")]
+    [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.25f;
+    [SerializeField] [Range(0, 1)] float deathSoundVolume = 0.75f;
 
     Coroutine ShootCoroutine;
 
