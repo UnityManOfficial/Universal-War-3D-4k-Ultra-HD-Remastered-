@@ -259,6 +259,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17203669}
   m_CullTransparentMesh: 1
+--- !u!1001 &130656417
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 873500511, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.538224
+      objectReference: {fileID: 0}
+    - target: {fileID: 873500511, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.538224
+      objectReference: {fileID: 0}
+    - target: {fileID: 873500511, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.538224
+      objectReference: {fileID: 0}
+    - target: {fileID: 873500511, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 873500511, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 550598677346291552, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_Name
+      value: Background
+      objectReference: {fileID: 0}
+    - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 037c27a247c225d469928eab15d257da, type: 3}
 --- !u!1 &409540061
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,8 +704,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1059,8 +1136,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
