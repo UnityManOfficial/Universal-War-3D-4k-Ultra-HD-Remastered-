@@ -9821,7 +9821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 550598677346291555}
   m_Layer: 0
-  m_Name: Background (Do not move parent
+  m_Name: Background (Do not move parent. Move Plane)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9918,6 +9918,18 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: ceeb5ae75d632244db9962e335757900, type: 2}
+    - target: {fileID: 2506881042271524456, guid: 8531c8719b7992b4fba33df3692d3dd8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506881042271524456, guid: 8531c8719b7992b4fba33df3692d3dd8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506881042271524456, guid: 8531c8719b7992b4fba33df3692d3dd8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.52
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8531c8719b7992b4fba33df3692d3dd8, type: 3}
 --- !u!4 &1450879631606424616 stripped
