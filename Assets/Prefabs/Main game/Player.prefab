@@ -148,17 +148,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 281000a3214656147b808fd9aa050457, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  moveSpeed: 15
   padding: 0
   health: 5
-  deathSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
-  deathSoundVolume: 0.75
-  shootSound: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}
-  shootSoundVolume: 0.25
-  deathVFX: {fileID: 7956281839378621678, guid: 66c55783b70b0e84ebb164bc8e057309, type: 3}
-  laserPrefab: {fileID: 6778853728131966350, guid: 7835db96656bc1c4cb57f4c9449f9d59, type: 3}
   projectileSpeed: 50
   projectileFiringPeriod: 0.3
+  laserPrefab: {fileID: 6778853728131966350, guid: 7835db96656bc1c4cb57f4c9449f9d59, type: 3}
+  deathVFX: {fileID: 7956281839378621678, guid: 66c55783b70b0e84ebb164bc8e057309, type: 3}
+  shootSound: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}
+  deathSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
+  shootSoundVolume: 0.25
+  deathSoundVolume: 0.75
 --- !u!50 &3217463321896891469
 Rigidbody2D:
   serializedVersion: 4
