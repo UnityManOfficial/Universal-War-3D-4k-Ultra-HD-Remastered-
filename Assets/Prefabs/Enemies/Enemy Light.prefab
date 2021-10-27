@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 3768627556639964678}
   - component: {fileID: 3768627556639964679}
   - component: {fileID: 783355553}
-  - component: {fileID: 783355552}
   - component: {fileID: 2842466641910229151}
+  - component: {fileID: 7281813318695742441}
   m_Layer: 6
   m_Name: Enemy Light
   m_TagString: Untagged
@@ -102,14 +102,14 @@ MonoBehaviour:
   health: 1
   minTimeBetweenShots: 0.2
   maxTimeBetweenShots: 1
-  projectile: {fileID: 4626410647776050796, guid: d2693162d9f05f048a84bcc94c2171bc, type: 3}
   projectileSpeed: 15
+  projectile: {fileID: 4626410647776050796, guid: d2693162d9f05f048a84bcc94c2171bc, type: 3}
   deathVFX: {fileID: 1035675687880977, guid: e786f05e0ea265c4fa3c8dd45eb3222d, type: 3}
-  durationOfExplosion: 0.7
   deathSound: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}
-  deathSoundVolume: 0.75
   shootSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
+  deathSoundVolume: 0.75
   shootSoundVolume: 0.25
+  durationOfExplosion: 0.7
 --- !u!114 &3768627556639964679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,22 +145,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &783355552
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3768627556639964672}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.05711472}
-  serializedVersion: 2
-  m_Radius: 0.44288528
 --- !u!114 &2842466641910229151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,3 +158,68 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0.5
+--- !u!60 &7281813318695742441
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3768627556639964672}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.20647238, y: -0.056513384}
+      - {x: 0.09223752, y: 0.0956817}
+      - {x: -0.08595577, y: 0.094639525}
+      - {x: -0.20915408, y: -0.056186035}
+      - {x: -0.2757004, y: 0.0023126528}
+      - {x: -0.2722886, y: 0.097970404}
+      - {x: -0.31536028, y: 0.09856814}
+      - {x: -0.31524727, y: 0.00839214}
+      - {x: -0.22511312, y: -0.07434746}
+      - {x: -0.22291112, y: -0.109860525}
+      - {x: -0.3478619, y: -0.22395387}
+      - {x: -0.35021225, y: -0.24698703}
+      - {x: -0.36882827, y: -0.24558306}
+      - {x: -0.37077194, y: -0.1557991}
+      - {x: -0.40688512, y: -0.15325312}
+      - {x: -0.4045395, y: -0.2511825}
+      - {x: -0.3778976, y: -0.25905737}
+      - {x: -0.3751503, y: -0.2814003}
+      - {x: -0.34026492, y: -0.2780782}
+      - {x: -0.22029182, y: -0.15714596}
+      - {x: -0.21087162, y: -0.1255843}
+      - {x: -0.18856946, y: -0.12684056}
+      - {x: -0.19283672, y: -0.18201652}
+      - {x: -0.10234323, y: -0.2811384}
+      - {x: 0.093426436, y: -0.27842975}
+      - {x: 0.18742904, y: -0.19232264}
+      - {x: 0.19523491, y: -0.13021146}
+      - {x: 0.20996363, y: -0.12960252}
+      - {x: 0.34527883, y: -0.28191087}
+      - {x: 0.37375972, y: -0.28136638}
+      - {x: 0.379679, y: -0.24755332}
+      - {x: 0.4046189, y: -0.25244668}
+      - {x: 0.40309674, y: -0.15671107}
+      - {x: 0.37236485, y: -0.15457161}
+      - {x: 0.37556612, y: -0.24334072}
+      - {x: 0.3552738, y: -0.24264988}
+      - {x: 0.229247, y: -0.113203}
+      - {x: 0.22396454, y: -0.07954472}
+      - {x: 0.31815898, y: 0.00576514}
+      - {x: 0.31814483, y: 0.09390031}

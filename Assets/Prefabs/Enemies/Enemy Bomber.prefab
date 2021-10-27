@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2894648750408025560}
   - component: {fileID: 7095670688205044759}
   - component: {fileID: 4191761915872220752}
+  - component: {fileID: 3258030620318029942}
   m_Layer: 6
   m_Name: Enemy Bomber
   m_TagString: Untagged
@@ -72,7 +73,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1
+  m_Radius: 0.7570915
 --- !u!114 &2894648750408025560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,14 +89,14 @@ MonoBehaviour:
   health: 2
   minTimeBetweenShots: 0.2
   maxTimeBetweenShots: 3
-  projectile: {fileID: 7956502443324603215, guid: 628bae816dd405847ba89ea678ad3939, type: 3}
   projectileSpeed: 1.5
+  projectile: {fileID: 7956502443324603215, guid: 628bae816dd405847ba89ea678ad3939, type: 3}
   deathVFX: {fileID: 1035675687880977, guid: e786f05e0ea265c4fa3c8dd45eb3222d, type: 3}
-  durationOfExplosion: 0.7
   deathSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
-  deathSoundVolume: 0.75
   shootSound: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}
+  deathSoundVolume: 0.75
   shootSoundVolume: 0.25
+  durationOfExplosion: 0.7
 --- !u!114 &7095670688205044759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,6 +124,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
+--- !u!61 &3258030620318029942
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4369288681358758617}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.000705421, y: 0.00000011920929}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.9994413, y: 0.28602386}
+  m_EdgeRadius: 0
 --- !u!1 &5833848425241684971
 GameObject:
   m_ObjectHideFlags: 0
