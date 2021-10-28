@@ -208,7 +208,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1460109005}
         m_TargetAssemblyTypeName: Level, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: LoadCredits
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
