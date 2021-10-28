@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 187119529574577480}
   - component: {fileID: 7260462162724997077}
-  - component: {fileID: 3441330179962710574}
   - component: {fileID: 7780430504033515999}
   - component: {fileID: 7039162545283179210}
   m_Layer: 6
@@ -56,61 +55,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &3441330179962710574
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1897374255276436715}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.74669087, y: 0.44474614}
-      - {x: 0.74417436, y: 0.5312153}
-      - {x: 0.55383503, y: 0.55788577}
-      - {x: 0.026551366, y: 0.74294174}
-      - {x: 0.016408086, y: 0.76478684}
-      - {x: -0.0028688908, y: 0.79549587}
-      - {x: -0.0016752481, y: 0.8002945}
-      - {x: -0.00157547, y: 0.8001039}
-      - {x: -0.028330326, y: 0.742437}
-      - {x: -0.027683496, y: 0.7433468}
-      - {x: -0.027683496, y: 0.7433468}
-      - {x: -0.0032179356, y: 0.79501975}
-      - {x: -0.05775106, y: 0.7300235}
-      - {x: -0.21009481, y: 0.66251767}
-      - {x: -0.5751287, y: 0.5656725}
-      - {x: -0.6495341, y: 0.552003}
-      - {x: -0.7421224, y: 0.52945197}
-      - {x: -0.7459152, y: 0.4479194}
-      - {x: -0.50535107, y: 0.20687783}
-      - {x: -0.5011504, y: 0.19317782}
-      - {x: -0.480353, y: 0.15512562}
-      - {x: -0.4763407, y: -0.1144048}
-      - {x: -0.26307017, y: -0.5283425}
-      - {x: -0.0259794, y: -0.74316394}
-      - {x: 0.0011253357, y: -0.7971499}
-      - {x: 0.028845191, y: -0.7462541}
-      - {x: 0.2593646, y: -0.5342282}
-      - {x: 0.4787792, y: -0.09813297}
-      - {x: 0.48262775, y: 0.15590823}
-      - {x: 0.50610733, y: 0.2033574}
 --- !u!95 &7780430504033515999
 Animator:
   serializedVersion: 3
