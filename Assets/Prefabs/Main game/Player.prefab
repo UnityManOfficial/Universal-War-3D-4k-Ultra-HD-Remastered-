@@ -149,10 +149,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 15
-  padding: 0
+  padding: 1
   health: 5
-  projectileSpeed: 50
-  projectileFiringPeriod: 0.3
+  projectileSpeed: 75
+  projectileFiringPeriod: 0.075
   laserPrefab: {fileID: 6778853728131966350, guid: 7835db96656bc1c4cb57f4c9449f9d59, type: 3}
   deathVFX: {fileID: 7956281839378621678, guid: 66c55783b70b0e84ebb164bc8e057309, type: 3}
   shootSound: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}
