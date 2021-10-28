@@ -214,7 +214,7 @@ MonoBehaviour:
   health: 5
   minTimeBetweenShots: 1.5
   maxTimeBetweenShots: 3
-  projectileSpeed: 4
+  projectileSpeed: 6
   projectile: {fileID: 4626410647776050796, guid: 5b7c11f21e2e15d48a22abde65fdbf77, type: 3}
   deathVFX: {fileID: 1035675687880977, guid: e786f05e0ea265c4fa3c8dd45eb3222d, type: 3}
   deathSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
