@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 6445450458566462039}
   - component: {fileID: -4374182562312024034}
   - component: {fileID: 1793642148}
-  - component: {fileID: 2880174913417153354}
   m_Layer: 6
   m_Name: Enemy Suicide
   m_TagString: Untagged
@@ -125,7 +124,7 @@ MonoBehaviour:
   minTimeBetweenShots: 100
   maxTimeBetweenShots: 100
   projectileSpeed: 0
-  projectile: {fileID: 3060896483311338194, guid: a96d477d6259d324ca053a5bc3366474, type: 3}
+  projectile: {fileID: 1719125600606895658, guid: a04e6487a6f9ea34db92067941f2f0a9, type: 3}
   deathVFX: {fileID: 1035675687880977, guid: e786f05e0ea265c4fa3c8dd45eb3222d, type: 3}
   deathSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
   shootSound: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}
@@ -280,16 +279,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
---- !u!114 &2880174913417153354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 57090826238244435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2cd92dfbfd9900145a25aa2a9ac8add9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1

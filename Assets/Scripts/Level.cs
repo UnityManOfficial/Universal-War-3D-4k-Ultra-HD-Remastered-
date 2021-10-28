@@ -110,6 +110,11 @@ public class Level : MonoBehaviour
         StartCoroutine(WaitAndLoadRealGame());
     }
 
+    public void LoadCredits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
     IEnumerator WaitAndLoadRealGame()
     {
         yield return new WaitForSeconds(delayInSeconds);
