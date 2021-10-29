@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding = 1f;
     [SerializeField] float health = 100f;
+    [SerializeField] [Tooltip("X amount of time till player explodes")] float PlayerBeingAnIdiot = 5f;
 
     [Header("Projectile Settings")]
     
@@ -45,6 +46,7 @@ public class Player : MonoBehaviour
     {
         Move();
         Fire();
+        Idiot();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -61,6 +63,23 @@ public class Player : MonoBehaviour
         if (health <= 0)
         {
             Die();
+        }
+    }
+
+    private void Idiot()
+    {
+        if (Input.anyKey)
+        {
+            PlayerBeingAnIdiot = 3f;
+        }
+        else
+        {
+            PlayerBeingAnIdiot -= Time.deltaTime;
+            if (PlayerBeingAnIdiot <= 0)
+            {
+                Die();
+                
+            }
         }
     }
 

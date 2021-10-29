@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Level : MonoBehaviour
 {
+    [SerializeField] private GameObject pausePanel;
+    private bool GamePaused = false;
+
     [Header("End Game")]
     [SerializeField] float delayInSeconds = 2f;
 
@@ -15,9 +18,24 @@ public class Level : MonoBehaviour
     void Update()
     {
         TimeCounter();
+        if (Input.GetKeyDown(KeyCode.Escape) && GamePaused == false)
+        {
+            GamePaused = true;
+            if(GamePaused)
+            {
+                pausePanel.SetActive(true);
+                Time.timeScale = 0;
+            }
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape) && GamePaused == true)
+        {
+            pausePanel.SetActive(false);
+            Time.timeScale = 1f;
+            GamePaused = false;
+        }
     }
 
-    private void TimeCounter()
+private void TimeCounter()
     {
         if (TimeLevel)
         {
@@ -32,6 +50,7 @@ public class Level : MonoBehaviour
     public void LoadStartMenu()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1;
     }
 
     public void LoadGame()
