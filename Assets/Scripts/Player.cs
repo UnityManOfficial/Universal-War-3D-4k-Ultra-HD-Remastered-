@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding = 1f;
     [SerializeField] float health = 100f;
-    [SerializeField] [Tooltip("X amount of time till player explodes")] float PlayerBeingAnIdiot = 3f;
+    [SerializeField] [Tooltip("X amount of time till player explodes")] float PlayerBeingAnIdiot = 5f;
 
     [Header("Projectile Settings")]
     
