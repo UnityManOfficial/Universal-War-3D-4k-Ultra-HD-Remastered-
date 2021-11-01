@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e49f82995d66904eb2175983061231b, type: 3}
-  m_Name: Wave 7 path 2
+  m_Name: Level 2 part 2
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 8733361932524263840, guid: e24ead36c11a53745bb563ba6e4c485d, type: 3}
-  pathPrefab: {fileID: 7503970256673607913, guid: a8fc79a1c261efc4a866a00c70e8aefa, type: 3}
+  pathPrefab: {fileID: 7503970256673607913, guid: 52f8167e4c5b158478aff832a1e97dae, type: 3}
   timeBetweenSpawns: 0.6
   spawnRandomFactor: 1
-  numberOfEnemies: 7
+  numberOfEnemies: 5
   moveSpeed: 10

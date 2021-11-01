@@ -601,7 +601,7 @@ PrefabInstance:
     - target: {fileID: 3278506368707559626, guid: ed1408e48b250a843b277c4fc3d886e3, type: 3}
       propertyPath: waveConfigs.Array.data[3]
       value: 
-      objectReference: {fileID: 11400000, guid: 583f47f5b072f5a4d9c66ff3dd286608, type: 2}
+      objectReference: {fileID: 11400000, guid: 5ff113f28ae0d6a43b2dc13c0bea3ac3, type: 2}
     - target: {fileID: 3278506368707559627, guid: ed1408e48b250a843b277c4fc3d886e3, type: 3}
       propertyPath: m_Name
       value: Spawner
