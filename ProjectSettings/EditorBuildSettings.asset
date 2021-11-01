@@ -45,14 +45,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Level Win Screen (Story).unity
     guid: 1c67451b51c3e7740bdd7ae3e0c678f3
   - enabled: 1
-    path: Assets/Scenes/Level Win Screen (Freeplay).unity
-    guid: 1f56b46302897f34e844df46b4e5aa4b
-  - enabled: 1
     path: Assets/Scenes/Game Over Screen (Story).unity
     guid: 9c7afc1244d8bf541b29fc289641935d
-  - enabled: 1
-    path: Assets/Scenes/Game Over Screen (Freeplay).unity
-    guid: 59811c0616b94d64f8f2b19e7827120d
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: d81fda85d566d0c4388d44fb7eb8222b
