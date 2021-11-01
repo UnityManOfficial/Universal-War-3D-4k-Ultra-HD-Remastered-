@@ -348,6 +348,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
+      propertyPath: pausePanel
+      value: 
+      objectReference: {fileID: 6833683842815474218}
+    - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
       propertyPath: TimeSeconds
       value: 30
       objectReference: {fileID: 0}
@@ -766,6 +770,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1877ccf8564e66e45873e9a79057c193, type: 3}
+--- !u!1 &6833683842815474218 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 168933132, guid: 1877ccf8564e66e45873e9a79057c193, type: 3}
+  m_PrefabInstance: {fileID: 6833683842815474217}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9136508625586479542
 PrefabInstance:
   m_ObjectHideFlags: 0
