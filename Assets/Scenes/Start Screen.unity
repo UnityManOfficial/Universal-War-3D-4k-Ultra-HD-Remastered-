@@ -155,7 +155,7 @@ RectTransform:
   m_Children:
   - {fileID: 315593443}
   m_Father: {fileID: 1836836874}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -964,7 +964,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1836836874}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 873500511, guid: 037c27a247c225d469928eab15d257da, type: 3}
       propertyPath: m_LocalScale.x
@@ -988,27 +988,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8138352
+      value: 0.92878944
       objectReference: {fileID: 0}
     - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8138352
+      value: 0.92878944
       objectReference: {fileID: 0}
     - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8138352
+      value: 0.92878944
       objectReference: {fileID: 0}
     - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -400
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -225.02544
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1179,11 +1179,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1011608367}
   m_CullTransparentMesh: 1
---- !u!4 &1035913473 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 550598677346291555, guid: 037c27a247c225d469928eab15d257da, type: 3}
-  m_PrefabInstance: {fileID: 870018422}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1136708587
 GameObject:
   m_ObjectHideFlags: 0
@@ -1381,7 +1376,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1460109000
 GameObject:
@@ -1628,7 +1623,6 @@ RectTransform:
   - {fileID: 1460109001}
   - {fileID: 1136708588}
   - {fileID: 1992643082}
-  - {fileID: 1035913473}
   - {fileID: 9439953}
   m_Father: {fileID: 0}
   m_RootOrder: 1
