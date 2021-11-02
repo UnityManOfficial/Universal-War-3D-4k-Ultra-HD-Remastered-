@@ -1497,9 +1497,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pausePanel: {fileID: 0}
+  Destroyer: {fileID: 0}
+  Spawner: {fileID: 0}
+  Complete: {fileID: 0}
   delayInSeconds: 2
   TimeLevel: 0
   TimeSeconds: 1
+  TimeSecondsRound: 0
+  TakedownLevel: 0
+  Enemies: 0
 --- !u!1 &1836836870
 GameObject:
   m_ObjectHideFlags: 0
