@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e49f82995d66904eb2175983061231b, type: 3}
-  m_Name: (not final) Level 10 Path 3
+  m_Name: (not final) Level 10 Path 4
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 57090826238244435, guid: da37b6e326ae27c4c8cd4cb7730f793e, type: 3}
   pathPrefab: {fileID: 2550260190765318459, guid: d7d050ca4a489004981d8104145962ee, type: 3}
