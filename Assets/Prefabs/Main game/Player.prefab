@@ -161,7 +161,7 @@ MonoBehaviour:
   shootSound: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}
   deathSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
   shootSoundVolume: 0.25
-  deathSoundVolume: 0.75
+  deathSoundVolume: 0.5
 --- !u!50 &3217463321896891469
 Rigidbody2D:
   serializedVersion: 4
