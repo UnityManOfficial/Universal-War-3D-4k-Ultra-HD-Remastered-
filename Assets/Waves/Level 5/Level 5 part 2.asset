@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Level 5 part 2
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 8927527402032172185, guid: f3eeb1ba1b971154f9be6f89374d2c83, type: 3}
-  pathPrefab: {fileID: 2550260190765318459, guid: c17f9d735f3739e4c941d9a78e267776, type: 3}
+  pathPrefab: {fileID: 2550260190765318459, guid: 5de481d1fb4902f4f90fee9481072d68, type: 3}
   timeBetweenSpawns: 1.2
   spawnRandomFactor: 1
   numberOfEnemies: 5
