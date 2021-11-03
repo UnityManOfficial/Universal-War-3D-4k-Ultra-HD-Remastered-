@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DamageDealer : MonoBehaviour
 {
-
+    [SerializeField] bool Invincible = false;
     [SerializeField] float damage = 1;
 
     public float GetDamage()
@@ -14,6 +14,9 @@ public class DamageDealer : MonoBehaviour
 
     public void Hit()
     {
-        Destroy(gameObject);
+        if (!Invincible)
+        {
+            Destroy(gameObject);
+        }
     }
 }

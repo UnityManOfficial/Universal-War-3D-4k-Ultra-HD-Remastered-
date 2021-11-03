@@ -7,6 +7,9 @@ public class Level : MonoBehaviour
 {
     [SerializeField] private GameObject pausePanel;
     private bool GamePaused = false;
+    [SerializeField] private GameObject Destroyer;
+    [SerializeField] private GameObject Spawner;
+    [SerializeField] private GameObject Complete; 
 
     [Header("End Game")]
     [SerializeField] float delayInSeconds = 2f;
@@ -14,10 +17,22 @@ public class Level : MonoBehaviour
     [Header("Time")]
     [SerializeField] bool TimeLevel;
     [SerializeField] float TimeSeconds = 1f;
+    public int TimeSecondsRound;
+
+    [Header("Enemies")]
+    [SerializeField] bool TakedownLevel;
+    [SerializeField] float Enemies = 0f;
 
     void Update()
     {
-        TimeCounter();
+        if (TimeLevel)
+        {
+            TimeCounter();
+        }
+        if (TakedownLevel)
+        {
+            TakedownEnemyLevel();
+        }
         if (Input.GetKeyDown(KeyCode.Escape) && GamePaused == false)
         {
             GamePaused = true;
@@ -35,13 +50,47 @@ public class Level : MonoBehaviour
         }
     }
 
-private void TimeCounter()
+    public void SubToEnemies(int EnemiesSub)
+    {
+        Enemies -= EnemiesSub;
+    }
+
+    public float GetTimer()
+    {
+        return TimeSecondsRound;
+    }
+
+    public float GetEnemies()
+    {
+        return Enemies;
+    }
+
+    private void TakedownEnemyLevel()
+    {
+        if (TakedownLevel)
+        {
+            if (Enemies <= 0)
+            {
+                Destroyer.SetActive(true);
+                Spawner.SetActive(false);
+                Complete.SetActive(true);
+                LoadNextGame();
+            }
+        }
+    }
+
+
+    private void TimeCounter()
     {
         if (TimeLevel)
         {
             TimeSeconds -= Time.deltaTime;
-            if (TimeSeconds <= 0)
+            TimeSecondsRound = Mathf.RoundToInt(TimeSeconds);
+            if (TimeSecondsRound <= 0)
             {
+                Destroyer.SetActive(true);
+                Spawner.SetActive(false);
+                Complete.SetActive(true);
                 LoadNextGame();
             }
         }
@@ -56,7 +105,6 @@ private void TimeCounter()
     public void LoadGame()
     {
         SceneManager.LoadScene("Level 1");
-        FindObjectOfType<GameSession>().ResetGame();
     }
 
     public void LoadNextGame()
@@ -138,12 +186,6 @@ private void TimeCounter()
     {
         yield return new WaitForSeconds(delayInSeconds);
         SceneManager.LoadScene("Game Over Screen (Story)");
-    }
-
-    IEnumerator WaitAndLoadFreePlay()
-    {
-        yield return new WaitForSeconds(delayInSeconds);
-        SceneManager.LoadScene("Game Over Screen (Freeplay)");
     }
 
     IEnumerator LoadNextGameTime()
