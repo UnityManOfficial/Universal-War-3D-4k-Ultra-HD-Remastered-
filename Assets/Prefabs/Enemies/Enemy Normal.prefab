@@ -252,8 +252,8 @@ MonoBehaviour:
   deathVFX: {fileID: 1035675687880977, guid: e786f05e0ea265c4fa3c8dd45eb3222d, type: 3}
   deathSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
   shootSound: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}
-  deathSoundVolume: 0.75
-  shootSoundVolume: 0.25
+  deathSoundVolume: 0.5
+  shootSoundVolume: 0.15
   durationOfExplosion: 0.7
 --- !u!114 &-2088992318147100161
 MonoBehaviour:
@@ -267,4 +267,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd92dfbfd9900145a25aa2a9ac8add9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Invincible: 0
   damage: 1
