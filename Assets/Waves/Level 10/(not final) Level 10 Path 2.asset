@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: (not final) Level 10 Path 2
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 57090826238244435, guid: da37b6e326ae27c4c8cd4cb7730f793e, type: 3}
-  pathPrefab: {fileID: 2550260190765318459, guid: d7d050ca4a489004981d8104145962ee, type: 3}
-  timeBetweenSpawns: 5
+  pathPrefab: {fileID: 2550260190765318459, guid: 6b6f9e6d0de35904db284fe2f70d5683, type: 3}
+  timeBetweenSpawns: 20
   spawnRandomFactor: 1
   numberOfEnemies: 1
   moveSpeed: 30
