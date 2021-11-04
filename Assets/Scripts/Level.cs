@@ -17,7 +17,7 @@ public class Level : MonoBehaviour
     [Header("Time")]
     [SerializeField] bool TimeLevel;
     [SerializeField] float TimeSeconds = 1f;
-    public int TimeSecondsRound;
+    private int TimeSecondsRound;
 
     [Header("Enemies")]
     [SerializeField] bool TakedownLevel;

@@ -349,6 +349,10 @@ PrefabInstance:
       value: Level
       objectReference: {fileID: 0}
     - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
+      propertyPath: Enemies
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
       propertyPath: Spawner
       value: 
       objectReference: {fileID: 3278506368868669556}
@@ -362,7 +366,7 @@ PrefabInstance:
       objectReference: {fileID: 156894278767014599}
     - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
       propertyPath: TimeLevel
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
       propertyPath: pausePanel
@@ -374,6 +378,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
       propertyPath: EnemiesLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
+      propertyPath: TakedownLevel
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
@@ -639,10 +647,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 12676460, guid: 1877ccf8564e66e45873e9a79057c193, type: 3}
       propertyPath: m_Text
-      value: 'Survive as long as you can!
+      value: 'eliminate all enemies
 
 
-        40 Seconds'
+        30 enemies remaning'
       objectReference: {fileID: 0}
     - target: {fileID: 168933136, guid: 1877ccf8564e66e45873e9a79057c193, type: 3}
       propertyPath: m_RootOrder

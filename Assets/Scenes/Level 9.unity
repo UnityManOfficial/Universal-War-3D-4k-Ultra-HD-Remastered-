@@ -370,7 +370,7 @@ PrefabInstance:
       objectReference: {fileID: 6833683842815474218}
     - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
       propertyPath: TimeSeconds
-      value: 45
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
       propertyPath: EnemiesLevel
@@ -497,6 +497,10 @@ PrefabInstance:
     - target: {fileID: 3217463321896891458, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3217463321896891459, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}
+      propertyPath: health
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3217463321896891468, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}
       propertyPath: m_RootOrder
@@ -678,7 +682,7 @@ PrefabInstance:
       value: 'Survive as long as you can!
 
 
-        45 Seconds'
+        60 Seconds'
       objectReference: {fileID: 0}
     - target: {fileID: 168933136, guid: 1877ccf8564e66e45873e9a79057c193, type: 3}
       propertyPath: m_RootOrder

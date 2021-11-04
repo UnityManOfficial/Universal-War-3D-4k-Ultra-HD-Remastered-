@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     [SerializeField] float padding = 1f;
     [SerializeField] float health = 100f;
     [SerializeField] [Tooltip("X amount of time till player explodes")] float PlayerBeingAnIdiot = 5f;
+    [SerializeField] [Tooltip("Disables player's death timer")] bool CheatNoDeathTimer = false;
 
     [Header("Projectile Settings")]
     
@@ -70,9 +71,9 @@ public class Player : MonoBehaviour
     {
         if (Input.anyKey)
         {
-            PlayerBeingAnIdiot = 3f;
+            PlayerBeingAnIdiot = 5f;
         }
-        else
+        else if (!CheatNoDeathTimer)
         {
             PlayerBeingAnIdiot -= Time.deltaTime;
             if (PlayerBeingAnIdiot <= 0)
