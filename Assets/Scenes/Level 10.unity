@@ -502,6 +502,14 @@ PrefabInstance:
       propertyPath: health
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3217463321896891459, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3217463321896891459, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}
+      propertyPath: projectileFiringPeriod
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 3217463321896891468, guid: b1b22a6bcc02eae408161d1276f764a0, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -629,12 +637,23 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 12676459, guid: 1877ccf8564e66e45873e9a79057c193, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 261.7821
+      objectReference: {fileID: 0}
+    - target: {fileID: 12676459, guid: 1877ccf8564e66e45873e9a79057c193, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -141.77759
+      objectReference: {fileID: 0}
     - target: {fileID: 12676460, guid: 1877ccf8564e66e45873e9a79057c193, type: 3}
       propertyPath: m_Text
       value: 'Survive as long as you can!
 
 
-        2 Minutes'
+        2 Minutes
+
+
+        Ship upgraded'
       objectReference: {fileID: 0}
     - target: {fileID: 168933136, guid: 1877ccf8564e66e45873e9a79057c193, type: 3}
       propertyPath: m_RootOrder
