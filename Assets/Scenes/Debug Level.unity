@@ -620,12 +620,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3278506368707559626, guid: ed1408e48b250a843b277c4fc3d886e3, type: 3}
       propertyPath: waveConfigs.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3278506368707559626, guid: ed1408e48b250a843b277c4fc3d886e3, type: 3}
+      propertyPath: waveConfigs.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 00bec7393a2b6284799b6c4d7a20235f, type: 2}
     - target: {fileID: 3278506368707559626, guid: ed1408e48b250a843b277c4fc3d886e3, type: 3}
       propertyPath: waveConfigs.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 9f6e69a73f6718a4b8bccbecad16c157, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 3278506368707559627, guid: ed1408e48b250a843b277c4fc3d886e3, type: 3}
       propertyPath: m_Name
       value: Spawner
