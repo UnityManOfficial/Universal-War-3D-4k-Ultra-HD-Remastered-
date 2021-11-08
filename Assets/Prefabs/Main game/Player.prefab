@@ -153,7 +153,8 @@ MonoBehaviour:
   moveSpeed: 15
   padding: 1
   health: 5
-  PlayerBeingAnIdiot: 5
+  PlayerBeingAnIdiot: 1000
+  CheatNoDeathTimer: 0
   projectileSpeed: 50
   projectileFiringPeriod: 0.15
   laserPrefab: {fileID: 6778853728131966350, guid: 7835db96656bc1c4cb57f4c9449f9d59, type: 3}
