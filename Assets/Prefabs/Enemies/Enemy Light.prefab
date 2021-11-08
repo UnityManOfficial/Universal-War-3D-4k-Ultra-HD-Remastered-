@@ -107,7 +107,7 @@ MonoBehaviour:
   deathVFX: {fileID: 1035675687880977, guid: e786f05e0ea265c4fa3c8dd45eb3222d, type: 3}
   deathSound: {fileID: 8300000, guid: 4b0a8c39e8de2dc4ebdbd8ddd76f51e6, type: 3}
   shootSound: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
-  deathSoundVolume: 0.25
+  deathSoundVolume: 0.15
   shootSoundVolume: 0.15
   durationOfExplosion: 0.7
 --- !u!114 &3768627556639964679

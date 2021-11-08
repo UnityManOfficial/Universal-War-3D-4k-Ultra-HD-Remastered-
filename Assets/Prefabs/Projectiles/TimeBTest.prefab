@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BombsTimer: 3
-  ExplosionVolume: 0.75
+  ExplosionVolume: 0.25
   ExplosionSFX: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
   ExplosionVFX: {fileID: 1973625901903947585, guid: fa3f32c0e05834b4680e6af66d06fa02, type: 3}
 --- !u!50 &-409505479496806507
