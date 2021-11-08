@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab25f6ae8a20ba4ab22d2b75825a1bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BombsTimer: 3
+  BombsTimer: 5
   ExplosionVolume: 0.25
   ExplosionSFX: {fileID: 8300000, guid: d6f0e5986ef315c489ea1f3f2949b279, type: 3}
   ExplosionVFX: {fileID: 1973625901903947585, guid: fa3f32c0e05834b4680e6af66d06fa02, type: 3}
