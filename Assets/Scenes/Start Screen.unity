@@ -1348,7 +1348,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Universal war (3d 4k ultra hd remastered and knuckles)
+  m_text: Universal war
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6242e1135f653bb409785ac36e228801, type: 2}
   m_sharedMaterial: {fileID: 2460679232960910057, guid: 6242e1135f653bb409785ac36e228801, type: 2}
@@ -1774,6 +1774,8 @@ MonoBehaviour:
   Destroyer: {fileID: 0}
   Spawner: {fileID: 0}
   Complete: {fileID: 0}
+  VictorySound: {fileID: 0}
+  VictorySoundVolume: 0.25
   delayInSeconds: 0
   TimeLevel: 0
   TimeSeconds: 1
@@ -1812,6 +1814,8 @@ MonoBehaviour:
   Destroyer: {fileID: 0}
   Spawner: {fileID: 0}
   Complete: {fileID: 0}
+  VictorySound: {fileID: 0}
+  VictorySoundVolume: 0.25
   delayInSeconds: 2
   TimeLevel: 0
   TimeSeconds: 1

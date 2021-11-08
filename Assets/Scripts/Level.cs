@@ -9,7 +9,9 @@ public class Level : MonoBehaviour
     private bool GamePaused = false;
     [SerializeField] private GameObject Destroyer;
     [SerializeField] private GameObject Spawner;
-    [SerializeField] private GameObject Complete; 
+    [SerializeField] private GameObject Complete;
+    [SerializeField] AudioClip VictorySound;
+    [SerializeField] [Range(0, 1)] float VictorySoundVolume = 0.25f;
 
     [Header("End Game")]
     [SerializeField] float delayInSeconds = 2f;
@@ -110,6 +112,7 @@ public class Level : MonoBehaviour
     public void LoadNextGame()
     {
         StartCoroutine(LoadNextGameTime());
+        AudioSource.PlayClipAtPoint(VictorySound, Camera.main.transform.position, VictorySoundVolume);
     }
 
     public void LoadFreeplay()
