@@ -425,12 +425,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
+      propertyPath: VictorySound
+      value: 
+      objectReference: {fileID: 8300000, guid: e526b4f5d518ffb4888accc99c667eef, type: 3}
+    - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
       propertyPath: TakedownLevel
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
+      propertyPath: delayInSeconds
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
       propertyPath: EnemiesToTakeDown
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
+      propertyPath: VictorySoundVolume
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 447843712089769898, guid: a7123a12dd1a6af44974af9214424950, type: 3}
       propertyPath: m_RootOrder

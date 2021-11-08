@@ -381,12 +381,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
+      propertyPath: VictorySound
+      value: 
+      objectReference: {fileID: 8300000, guid: e526b4f5d518ffb4888accc99c667eef, type: 3}
+    - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
       propertyPath: TakedownLevel
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
+      propertyPath: delayInSeconds
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
       propertyPath: EnemiesToTakeDown
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 447843712089769893, guid: a7123a12dd1a6af44974af9214424950, type: 3}
+      propertyPath: VictorySoundVolume
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 447843712089769898, guid: a7123a12dd1a6af44974af9214424950, type: 3}
       propertyPath: m_RootOrder
@@ -680,6 +692,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6366220697966421317, guid: 1877ccf8564e66e45873e9a79057c193, type: 3}
+      propertyPath: Takedown
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6833683842763124512, guid: 1877ccf8564e66e45873e9a79057c193, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -780,23 +796,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 168933132, guid: 1877ccf8564e66e45873e9a79057c193, type: 3}
   m_PrefabInstance: {fileID: 6833683842815474217}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &6833683842815474220 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 12676458, guid: 1877ccf8564e66e45873e9a79057c193, type: 3}
-  m_PrefabInstance: {fileID: 6833683842815474217}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6833683842815474221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6833683842815474220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cae65e2da2379743a5cbf247bcb2dfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &9136508625586479542
 PrefabInstance:
   m_ObjectHideFlags: 0
